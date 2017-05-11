@@ -1,0 +1,71 @@
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: auto;
+    min-width: 250px;
+}
+
+.headerBox {
+  font-family: 'Rubik Mono One', sans-serif;
+    background-color: #FF0000;
+    text-align: center;
+    width: 100%;
+}
+
+.textBox {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16pt;
+  background-color: ##FFFF00;
+  text-align: justify;
+  width: 55%;
+}
+
+.textBox2 {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: ##FFFF00;
+  text-align: justify;
+  width: 40%;
+  height: 30%;
+  margin: 5px;
+  text-align: center;
+}
+
+.textBox3 {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: ##FF0000;
+  text-align: justify;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+
+div.dropdown {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+   display: inline-block;
+   z-index: 5;
+}
+
+div.item {
+  font-family: 'Rubik Mono One', sans-serif;
+  display: none;
+  padding: 1;
+  color: ##FFFF00;
+}
+
+.item a {
+    color: #475E05;
+}
+
+.dropdown:hover .item {
+    display: block;
+}
+
+@media screen and (max-width: 450px){
+  .textBox {
+    width: 100%;
+  }
